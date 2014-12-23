@@ -402,6 +402,10 @@
                     我的收藏
                 </a>
             </li>
+           <!--  <canvas id="c"></canvas>
+            <div id="top">
+                <a id="close" href=""></a>
+            </div> -->
         </div>
     </div>
 
@@ -415,5 +419,6 @@
 
 <script src="/Public/js/dianzan.js"></script>
 <script src="/Public/js/header.js"></script>
+ <script src="/Public/js/game.js"></script>
 </body>
 </html>

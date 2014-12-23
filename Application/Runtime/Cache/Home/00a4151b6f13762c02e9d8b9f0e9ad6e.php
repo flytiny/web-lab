@@ -195,6 +195,10 @@
                     我的收藏
                 </a>
             </li>
+           <!--  <canvas id="c"></canvas>
+            <div id="top">
+                <a id="close" href=""></a>
+            </div> -->
         </div>
     </div>
 
