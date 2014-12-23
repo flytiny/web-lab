@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FlyTiny Q&amp;A</title>
+        <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <link href="__PUBLIC__/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  href="__PUBLIC__/css/question.css" type="text/css">
+        <link rel="stylesheet"  href="__PUBLIC__/css/right.css" type="text/css">
+
+</head>
+<body onload="set()">
+
+<include file="public/head" />
+
+<div class="QA-main-content">
+    <div class="QA-left">
+
+        <?php
+            $showtime = date("y-m-d h:i", $question['time']);
+            $src="__PUBLIC__".$question['picture'];
+	   echo '<div class="question-area">
+            <div class="row">
+                <div class="question-title">
+                    <h3 class="question-title" id="questionTitle" ><strong>'.$question['title'].'</strong></a></h3>
+                    <div class="author">
+
+
+
+
+                        <a href="/index.php/home/user/index?id=';    echo $question['userid'];
+                    echo '" class="question-author"><strong>'.$question['username'].'</strong></a>'.$showtime.' 提问
+                        <ul class="question-taglist">';
+
+                           if($question['C']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=1" class="tag-click">C</a></span> </li>'; 
+                        }   
+                        if($question['JAVA']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=2" class="tag-click">JAVA</a></span> </li>'; 
+                        }  
+                        if($question['PHP']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=3" class="tag-click">PHP</a></span> </li>'; 
+                        }       
+                        echo '</ul>
+                    </div>
+                </div>
+                <div class="question-option">
+                    <div class="button-section">
+                        <button type="button"  class="btn btn-success btn-sm question-option-button1" data-id="" data-do="follow" data-type="question"  onclick="dianzan()">点赞</button>
+                        <strong id="dianzannum" name="dianzannum">'.$question['prisenum'].'</strong> 点赞
+                        <button type="button"  class="btn btn-default btn-sm question-option-button2" data-id="" data-do="bookmark" data-type="question" onclick="shoucang()">收藏</button><strong id="shoucangnum" name="shoucangnum">'.$question['sellectnum'].'</strong> 收藏
+                        <span class="glyphicon glyphicon-tower coin" aria-hidden="true"></span>
+                        赏金：'.$question['coin'].' 金币
+                    </div>
+
+                    <p id="dianzan_error" name="dianzan_error" style="color: #F4115F; display:none;">已取消 </p>
+                    <p id="dianzan_error2" name="dianzan_error2" style="color: #F4115F;display:none;">请先登录~~~~ </p>
+                    <p id="shoucang_error" name="shoucang_error" style="color: #F4115F; display:none;">已取消收藏~~~~</p>
+                </div>
+            </div>
+        </div>  
+
+        <div class="question-content" >
+            <p class="lead question-content-text">'.$question['content'].'</p>';
+            if(!($question['picture']==null)){
+            echo '<img src="'.$src.'" class="img-responsive img-thumbnail question-img" alt="">';
+        }
+            echo '<hr />
+        </div>';
+
+        ?>
+
+        <?php
+        echo '<div class="answer">
+            <div class="answer-summary">
+                <h3 class="answer-num" id="zh-question-answer-num">'.$question['answernum'].' 个回答</h3>
+                <hr />
+            </div>
+        </div>';
+
+        ?>
+
+        <?php
+                foreach ($answer as $key => $value) {
+                    $showtime = date("y-m-d h:i", $value['time']);
+                    $src="__PUBLIC__".$value['picture'];
+                    echo '<div class="answer-content">
+            <div class="answer-rank">
+                <div class="votes">
+                    <strong id="dianzannum2" name="dianzannum2">'.$value['prisenum'].'</strong>
+                    <button class="glyphicon glyphicon-thumbs-up" dashuaibi="'.$value['id'].'" onclick="dianzan2(this)"></button>
+                </div>
+            </div>
+            <div class="answer-main">
+                <div class="author">
+                    <a href="/index.php/home/user/index?id=';    echo $value['userid'];
+                    echo '" class="answer-author"><strong>'.$value['username'].'</strong></a>
+                        '.$showtime.'回答';
+                       if($value['adopt']==1){
+                    echo '<span class="glyphicon glyphicon-check answer-adopt" aria-hidden="true"></span>
+                    被采纳';
+                }
+                echo '</div>
+                <div class="answer-text">
+                    <p class="lead answer-text">'.$value['content'].'</p>';
+                    if(!($value['picture']==null)){
+                    echo '<img src="'.$src.'" class="img-responsive img-thumbnail answer-img" alt="">';
+                        }
+                echo    '<hr />
+                </div>
+            </div>
+        </div> ';
+
+                }
+
+        ?>
+       
+        <form class="publish-answer-form " role="form" action="__URL__/publishanswer" method="post" enctype="multipart/form-data">
+            <div class="publish-answer">
+                <strong class="publish-answer-label1">发布回复</strong><br/><br />
+                <textarea class="form-control publish-answer-content" rows="10" id="publish_answer_content"  name="publish_answer_content"></textarea>
+                <input type="file" id="file" name="file" class="publish-answer-img">
+                <input type="hidden" name="hidden_name" id="hidden_name" value="{$question['id']}">
+                <button type="submit" class="btn btn-default btn-lg publish-answer-button">发布回复</button>
+            </div>
+
+        </form>
+    </div>
+    
+<include file="public/right" />
+</div>
+
+
+
+<script src="__PUBLIC__/js/dianzan.js"></script>
+<script src="__PUBLIC__/js/header.js"></script>
+</body>
+</html>

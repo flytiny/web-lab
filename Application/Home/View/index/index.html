@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FlyTiny Q&amp;A</title>
+        <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <link href="__PUBLIC__/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  href="__PUBLIC__/css/index.css" type="text/css">
+    <link rel="stylesheet"  href="__PUBLIC__/css/right.css" type="text/css">
+
+</head>
+<body >
+
+<include file="public/head" />
+
+
+<div class="QA-main-content">
+	<div class="QA-left">
+		<p class="ask-question"> 
+			今天有什么问题呢？
+			<a onclick="question()" class="btn btn-success ask-button ">我要提问</a>
+		</p>
+        <p id="login_error2" name="login_error2" style="color: #F4115F;display:none">请先登录~~~ </p>
+        <p id="coin_error" name="coin_error" style="color: #F4115F;display:none">积分不足100，无法发布问题~~~ </p>
+
+		<ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">最新的</a></li>
+            <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">最热的</a></li>
+            <li role="presentation"><a href="#messages" role="tab" data-toggle="tab">无人回答的</a></li>
+        </ul>
+
+<!-- Tab panes -->
+        <div class="tab-content  question-list">
+            <div role="tabpanel" class="tab-pane active" id="home">
+                <?php
+                    foreach ($new as $key => $value) {
+
+        $showtime = time() - $value['time'];
+        if ($showtime < 60) {
+            $showtime = ($showtime)."秒前";
+        } elseif ($showtime / 3600 < 1) {
+            $showtime = (floor($showtime / 60))."分钟前";
+        } elseif ($showtime / 3600 < 8) {
+            $showtime = (floor($showtime / 3600))."小时前";
+        } else {
+            $showtime = date("y-m-d h:i", $value['time']);
+        }
+                        echo '
+                            <section class="question-list-section">
+                                <div class="qa-rank">
+                                    <div class="votes">
+                                        '.$value['prisenum'] .'<small><span class="glyphicon glyphicon-thumbs-up"></span></small>
+                                    </div>
+                                    <div class="answers">
+                                        '.$value['answernum'].'<small><span class="glyphicon glyphicon-comment"></span></small>
+                                    </div>
+                                </div>
+                                <div class="qa-info">
+                                    <ul class="author">
+                                        <li>
+                                            <a href="/index.php/home/user/index?id=';    echo $value['userid'];
+                    echo '">'.$value['username'].'</a>
+                                            <span class="split"></span>
+                                            <li>在'; echo $showtime;  echo '提问</li>
+                                        </li>
+                                    </ul>
+                    <h2 class="title"><a href="/index.php/home/question/index?id=';    echo $value['id'];
+                    echo '">'.$value['title'].'</a></h2>
+                    <ul class="question-taglist">';
+                        if($value['C']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=1" class="tag-click">C</a></span> </li>'; 
+                        }   
+                        if($value['JAVA']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=2" class="tag-click">JAVA</a></span> </li>'; 
+                        }  
+                        if($value['PHP']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=3" class="tag-click">PHP</a></span> </li>'; 
+                        }  
+
+                    echo '</ul>
+                </div>
+            </section>
+                            ';
+
+                    }
+
+
+                ?>
+            </div>
+            <div role="tabpanel" class="tab-pane" id="profile">
+                <?php
+                    foreach ($hot as $key => $value) {
+
+        $showtime = time() - $value['time'];
+        if ($showtime < 60) {
+            $showtime = ($showtime)."秒前";
+        } elseif ($showtime / 3600 < 1) {
+            $showtime = (floor($showtime / 60))."分钟前";
+        } elseif ($showtime / 3600 < 8) {
+            $showtime = (floor($showtime / 3600))."小时前";
+        } else {
+            $showtime = date("y-m-d h:i", $value['time']);
+        }
+
+                        echo '
+                            <section class="question-list-section">
+                                <div class="qa-rank">
+                                    <div class="votes">
+                                        '.$value['prisenum'] .'<small><span class="glyphicon glyphicon-thumbs-up"></span></small>
+                                    </div>
+                                    <div class="answers">
+                                        '.$value['answernum'].'<small><span class="glyphicon glyphicon-comment"></span></small>
+                                    </div>
+                                </div>
+                                <div class="qa-info">
+                                    <ul class="author">
+                                        <li>
+                                             <a href="/index.php/home/user/index?id=';    echo $value['userid'];
+                    echo '">'.$value['username'].'</a>
+                                            <span class="split"></span>
+                                            <li>在'; echo $showtime;  echo '提问</li>
+                                        </li>
+                                    </ul>
+                    <h2 class="title"><a href="/index.php/home/question/index?id=';    echo $value['id'];
+                    echo '">'.$value['title'].'</a></h2>
+                    <ul class="question-taglist">';
+                        if($value['C']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=1" class="tag-click">C</a></span> </li>'; 
+                        }   
+                        if($value['JAVA']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=2" class="tag-click">JAVA</a></span> </li>'; 
+                        }  
+                        if($value['PHP']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=3" class="tag-click">PHP</a></span> </li>'; 
+                        }  
+
+                    echo '</ul>
+                </div>
+            </section>
+                            ';
+
+                    }
+
+
+                ?>
+
+            </div>
+            <div role="tabpanel" class="tab-pane" id="messages">
+                
+                <?php
+                    foreach ($noans as $key => $value) {
+        $showtime = time() - $value['time'];
+        if ($showtime < 60) {
+            $showtime = ($showtime)."秒前";
+        } elseif ($showtime / 3600 < 1) {
+            $showtime = (floor($showtime / 60))."分钟前";
+        } elseif ($showtime / 3600 < 8) {
+            $showtime = (floor($showtime / 3600))."小时前";
+        } else {
+            $showtime = date("y-m-d h:i", $value['time']);
+        }
+                        echo '
+                            <section class="question-list-section">
+                                <div class="qa-rank">
+                                    <div class="votes">
+                                        '.$value['prisenum'] .'<small><span class="glyphicon glyphicon-thumbs-up"></span></small>
+                                    </div>
+                                    <div class="answers">
+                                        '.$value['answernum'].'<small><span class="glyphicon glyphicon-comment"></span></small>
+                                    </div>
+                                </div>
+                                <div class="qa-info">
+                                    <ul class="author">
+                                        <li>
+                                             <a href="/index.php/home/user/index?id=';    echo $value['userid'];
+                    echo '">'.$value['username'].'</a>
+                                            <span class="split"></span>
+                                            <li>在'; echo $showtime;  echo '提问</li>
+                                        </li>
+                                    </ul>
+                    <h2 class="title"><a href="/index.php/home/question/index?id=';    echo $value['id'];
+                    echo '">'.$value['title'].'</a></h2>
+                    <ul class="question-taglist">';
+                        if($value['C']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=1" class="tag-click">C</a></span> </li>'; 
+                        }   
+                        if($value['JAVA']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=2" class="tag-click">JAVA</a></span> </li>'; 
+                        }  
+                        if($value['PHP']==1){
+                        echo '<li><span class="label label-primary tag-button"><a href="/index.php/home/search/searchtag?id=3" class="tag-click">PHP</a></span> </li>'; 
+                        }  
+
+                    echo '</ul>
+                </div>
+            </section>
+                            ';
+
+                    }
+
+
+                ?>
+            </div>
+        </div>
+    </div>
+
+<include file="public/right" />
+</div>
+
+
+<script src="__PUBLIC__/js/header.js"></script>
+</body>
+</html>

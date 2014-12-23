@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>FlyTiny Q&A</title>
+        <script src="__PUBLIC__/js/jquery.min.js"></script>
+    <link href="__PUBLIC__/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="__PUBLIC__/css/bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet"  href="__PUBLIC__/css/publish-qa.css" type="text/css">
+    <link rel="stylesheet"  href="__PUBLIC__/css/modify.css" type="text/css">
+
+</head>
+<body>
+
+<include file="public/head" />
+
+<div class="QA-main-content">
+    <h1 class="publish-qa-head"> 修改信息</h1>
+    <form class="publish-qa-form navbar-left" role="form" action="__URL__/xiugai" method="post" enctype="multipart/form-data">
+        <div class="publish-qa-img ">
+            <strong class="publish-qa-label5">修改头像</strong>
+            <?php
+            $src="__PUBLIC__".$_SESSION['picture'];
+            echo '<img alt="陈倾酒" src="'.$src.'" class="img_old">';
+            ?>
+            <input type="file" id="file" name="file" class="publish-qa-img-submit">
+        </div>
+
+        <div class="publish-qa-title "> 
+            <strong class="publish-qa-label1">用户昵称</strong>
+            <input type="text" class="publish-qa-name-input form-control  " name="name" id="name"  required="" autofocus="" value="{$user_info['user_name']}">
+        </div>
+         <div class="publish-qa-title "> 
+            <strong class="publish-qa-label1">用户密码</strong>
+            <input type="text" class="publish-qa-password-input form-control  " name="password" id="password"  required="" autofocus="" value="{$user_info['password']}">
+        </div>
+         <div class="publish-qa-title "> 
+            <strong class="publish-qa-label1">用户性别</strong>
+            <label class="radio-inline sex_select1">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 男
+            </label>
+            <label class="radio-inline sex_select2">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 女
+            </label>
+        </div>
+         <div class="publish-qa-title "> 
+            <strong class="publish-qa-label1">用户地点</strong>
+            <input type="text" class="publish-qa-location-input form-control  " name="location" id="location"  required="" autofocus="" value="{$user_info['location']}">
+        </div>
+        <div class="publish-qa-title "> 
+            <strong class="publish-qa-label1">用户学历</strong>
+            <input type="text" class="publish-qa-study-input form-control  " name="study" id="study"  required="" autofocus=""
+            value="{$user_info['study']}">
+        </div>
+        <div class="publish-qa-title "> 
+            <strong class="publish-qa-label1">用户邮箱</strong>
+            <input type="email" class="publish-qa-email-input form-control  " name="email" id="email"  required="" autofocus=""
+            value="{$user_info['email']}">
+        </div>
+        
+
+        
+        <div class="publish-qa-submit ">
+            <button type="submit" class="btn btn-default btn-lg publish-qa-submit-button">提交修改</button>
+        </div>
+    </form>
+</div>
+
+
+
+<script src="__PUBLIC__/js/header.js"></script>
+</body>
+</html>

@@ -1,0 +1,126 @@
+div {
+display: block;
+}
+
+.navbar-header {
+	height: 25px;
+}
+
+#navbar {
+	height:25ps;
+}
+
+#zh-home-list-title {
+font-size: 14px;
+color: #666;
+font-weight: 700;
+}
+.zg-section {
+margin: 0 0 10px;
+display: block;
+}
+
+.QA-main-content {
+ height:100%;
+ width:960px;
+ margin:auto;
+ margin-top: 10px;
+ padding-top: 10px;
+ min-height: 340px;
+position: relative;
+z-index: 2;
+clear: both;
+}
+
+
+.search-text{
+	margin-left: 150px;
+	margin-top: 9px;
+}
+
+.head-title{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 24px;
+}
+
+.publish-qa-head{
+margin-top: 5px;
+font-family: 'Helvetica Neue',Helvetica,Arial,Sans-serif;
+
+}
+
+.publish-qa-form{
+	height:200px;
+	width:100%;
+}
+.publish-qa-title{
+	margin-top: 22px;
+}
+.publish-qa-label1{
+	float: left;
+	font-size: 18px;
+	padding-top: 6px;
+	margin-right: 10px;
+}
+.publish-qa-title-input{
+	width:700px;
+}
+
+.publish-qa-tag{
+	margin-top: 30px;
+
+}
+.publish-qa-label2{
+	float: left;
+	font-size: 18px;
+	margin-right: 10px;
+	margin-right: 12px;
+}
+.publish-qa-coin{
+	margin-top: 30px;
+
+}
+.publish-qa-coin-input{
+	width:50px;
+
+}
+.publish-qa-label3{
+	float: left;
+	font-size: 18px;
+	padding-top: 6px;
+	margin-right: 10px;
+}
+.publish-qa-content{
+	margin-top: 30px;
+
+}
+.publish-qa-label4{
+	float: left;
+	font-size: 18px;
+	padding-top: 6px;
+	margin-right: 10px;
+}
+.publish-qa-img{
+	margin-top: 30px;
+
+}
+.publish-qa-label5{
+	float: left;
+	font-size: 18px;
+	padding-top: 6px;
+	margin-right: 10px;
+}
+.publish-qa-img-submit{
+padding-left: 3px;
+padding-top: 5px;
+}
+.publish-qa-submit{
+	margin-top: 30px;
+
+}
+.publish-qa-submit-button{
+	float: right;
+
+}
+

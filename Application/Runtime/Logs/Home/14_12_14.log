@@ -1,0 +1,1614 @@
+[ 2014-12-14T16:51:48+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+NOTIC: [2] mysql_connect():  D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+ERR: ����Ŀ�����������ܾ����޷����ӡ�
+
+
+[ 2014-12-14T16:51:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418374311 ORDER BY answernum desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 211 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:51:51+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418374311 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 211 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 218 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:51:58+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.100000s ]
+SQL: SELECT * FROM `ft_user` WHERE `user_id` = 'chenjunshan@1.com' AND `password` = 'chenjunshan' LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:51:58+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418374318 ORDER BY answernum desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:52:02+08:00 ] 127.0.0.1 /index.php/home/question/index?id=22
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.180011s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 22  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-14T16:52:13+08:00 ] 127.0.0.1 /index.php/Home/Question/publishanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: INSERT INTO `ft_answer` (`userid`,`username`,`content`,`questionid`,`time`,`picture`) VALUES (1,'花花公子','wdadd',22,1418547133,'/picture/huida/2014-12-14/548d4fbd6af34.jpg') [ RunTime:0.069004s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `ft_question` SET `answernum`=1 WHERE `id` = 22 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001001s ]
+SQL: UPDATE `ft_user` SET `id`=1,`user_id`='chenjunshan@1.com',`password`='chenjunshan',`user_name`='花花公子',`user_image`='/picture/touxiang/2014-12-10/54872305eda49.jpg',`user_coin`=320,`sex`='男',`location`='中国上海',`study`='大学生',`email`='123@qq.com' WHERE `id` = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 22  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:52:24+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.081001s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:52:24+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:52:25+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:52:25+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:52:25+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:52:25+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:52:25+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:52:25+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:52:26+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.005001s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:52:26+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:52:26+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.007000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T16:53:14+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.010000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.010000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 16 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzanans` (`answerid`,`userid`) VALUES (16,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=16,`questionid`=22,`userid`=1,`username`='花花公子',`time`=1418547133,`content`='wdadd',`prisenum`=1,`adopt`=0,`picture`='/picture/huida/2014-12-14/548d4fbd6af34.jpg' WHERE `id` = 16 [ RunTime:0.060000s ]
+
+[ 2014-12-14T16:53:14+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 16 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2014-12-14T16:53:17+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 16 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:00:06+08:00 ] 127.0.0.1 /index.php/Home/Question/publishanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: INSERT INTO `ft_answer` (`userid`,`username`,`content`,`questionid`,`time`,`picture`) VALUES (1,'花花公子','wdadd',22,1418547606,'/picture/huida/2014-12-14/548d51965d23b.jpg') [ RunTime:0.102006s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `ft_question` SET `answernum`=2 WHERE `id` = 22 [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.004001s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_user` SET `id`=1,`user_id`='chenjunshan@1.com',`password`='chenjunshan',`user_name`='花花公子',`user_image`='/picture/touxiang/2014-12-10/54872305eda49.jpg',`user_coin`=330,`sex`='男',`location`='中国上海',`study`='大学生',`email`='123@qq.com' WHERE `id` = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 22  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:00:14+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 14 [ RunTime:0.089001s ]
+
+[ 2014-12-14T17:00:18+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzan` (`questionid`,`userid`) VALUES (22,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=22,`userid`='1',`username`='花花公子',`title`='铁饼吃屎',`content`='盛大大大大',`coin`=20,`answerid`=0,`answernum`=2,`prisenum`=2,`sellectnum`=1,`picture`='/picture/wenti/2014-12-10/548724121e1ab.jpg',`C`=0,`JAVA`=1,`PHP`=0,`time`=1418142738 WHERE `id` = 22 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:00:43+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.022000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 22 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 15 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:02:18+08:00 ] 127.0.0.1 /index.php/Home/Question/publishanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.004000s ]
+SQL: INSERT INTO `ft_answer` (`userid`,`username`,`content`,`questionid`,`time`,`picture`) VALUES (1,'花花公子','wdadd',22,1418547738,'/picture/huida/2014-12-14/548d521ab3a01.jpg') [ RunTime:0.118007s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `answernum`=3 WHERE `id` = 22 [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `ft_user` SET `id`=1,`user_id`='chenjunshan@1.com',`password`='chenjunshan',`user_name`='花花公子',`user_image`='/picture/touxiang/2014-12-10/54872305eda49.jpg',`user_coin`=340,`sex`='男',`location`='中国上海',`study`='大学生',`email`='123@qq.com' WHERE `id` = 1 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 22  [ RunTime:0.003000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:02:19+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418374939 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:02:22+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:02:29+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 21 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 12 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=21,`userid`='1',`username`='花花公子',`title`='123',`content`='wddsaadsd',`coin`=1,`answerid`=0,`answernum`=1,`prisenum`=0,`sellectnum`=1,`picture`='/picture/wenti/2014-12-04/548017e222cce.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1417680866 WHERE `id` = 21 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:02:34+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 21 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzan` (`questionid`,`userid`) VALUES (21,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.010000s ]
+SQL: UPDATE `ft_question` SET `id`=21,`userid`='1',`username`='花花公子',`title`='123',`content`='wddsaadsd',`coin`=1,`answerid`=0,`answernum`=1,`prisenum`=1,`sellectnum`=1,`picture`='/picture/wenti/2014-12-04/548017e222cce.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1417680866 WHERE `id` = 21 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:02:54+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.002001s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:02:57+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 21 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 16 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=21,`userid`='1',`username`='花花公子',`title`='123',`content`='wddsaadsd',`coin`=1,`answerid`=0,`answernum`=1,`prisenum`=0,`sellectnum`=1,`picture`='/picture/wenti/2014-12-04/548017e222cce.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1417680866 WHERE `id` = 21 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:07:48+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:07:50+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:07:51+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 21 AND `userid` = 1 LIMIT 1   [ RunTime:0.010000s ]
+NOTIC: [8] Undefined variable: dianzan_info D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: dianzan D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 177 行.
+
+[ 2014-12-14T17:07:55+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 21 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dianzan_info D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: dianzan D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 177 行.
+
+[ 2014-12-14T17:07:57+08:00 ] 127.0.0.1 /index.php/home/login/cancel
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:07:57+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: id D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 186 行.
+NOTIC: [8] Undefined index: id D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 193 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:08:00+08:00 ] 127.0.0.1 /index.php/home/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_user` WHERE `user_id` = 'chenjunshan@1.com' AND `password` = 'chenjunshan' LIMIT 1   [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:08:00+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:08:01+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 21 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dianzan_info D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: dianzan D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 177 行.
+
+[ 2014-12-14T17:08:42+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375322 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:08:49+08:00 ] 127.0.0.1 /index.php/home/question/index?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 18  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-12-14T17:08:51+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzan` (`questionid`,`userid`) VALUES (18,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=18,`userid`='1',`username`='花花公子',`title`='sad',`content`='sssss',`coin`=0,`answerid`=0,`answernum`=0,`prisenum`=1,`sellectnum`=0,`picture`=null,`C`=0,`JAVA`=0,`PHP`=1,`time`=1417667286 WHERE `id` = 18 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:08:52+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 17 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=18,`userid`='1',`username`='花花公子',`title`='sad',`content`='sssss',`coin`=0,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=0,`picture`=null,`C`=0,`JAVA`=0,`PHP`=1,`time`=1417667286 WHERE `id` = 18 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:08:55+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_fav` (`questionid`,`userid`) VALUES (18,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=18,`userid`='1',`username`='花花公子',`title`='sad',`content`='sssss',`coin`=0,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=1,`picture`=null,`C`=0,`JAVA`=0,`PHP`=1,`time`=1417667286 WHERE `id` = 18 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:08:56+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dianzan_info D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: dianzan D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 177 行.
+
+[ 2014-12-14T17:09:25+08:00 ] 127.0.0.1 /index.php/home/question/index?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 18  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2014-12-14T17:09:26+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: dianzan D:\wamp\www\Application\Home\Controller\QuestionController.class.php 第 177 行.
+
+[ 2014-12-14T17:09:29+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375369 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:09:47+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375387 ORDER BY answernum desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:09:48+08:00 ] 127.0.0.1 /index.php/home/question/index?id=18
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 18  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:09:51+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_fav` WHERE `id` = 14 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=18,`userid`='1',`username`='花花公子',`title`='sad',`content`='sssss',`coin`=0,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=0,`picture`=null,`C`=0,`JAVA`=0,`PHP`=1,`time`=1417667286 WHERE `id` = 18 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:09:54+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_fav` (`questionid`,`userid`) VALUES (18,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=18,`userid`='1',`username`='花花公子',`title`='sad',`content`='sssss',`coin`=0,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=1,`picture`=null,`C`=0,`JAVA`=0,`PHP`=1,`time`=1417667286 WHERE `id` = 18 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:09:55+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 18 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_fav` WHERE `id` = 15 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 18 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=18,`userid`='1',`username`='花花公子',`title`='sad',`content`='sssss',`coin`=0,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=0,`picture`=null,`C`=0,`JAVA`=0,`PHP`=1,`time`=1417667286 WHERE `id` = 18 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:10:20+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.029002s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375420 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:10:25+08:00 ] 127.0.0.1 /index.php/home/question/index?id=21
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 21  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:10:28+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375428 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:10:33+08:00 ] 127.0.0.1 /index.php/home/index/set
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:10:33+08:00 ] 127.0.0.1 /index.php/home/publish/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.010000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:10:51+08:00 ] 127.0.0.1 /index.php/Home/Publish/publishqa
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given D:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: INSERT INTO `ft_question` (`userid`,`username`,`title`,`content`,`coin`,`picture`,`time`,`C`,`JAVA`,`PHP`) VALUES ('1','花花公子','wahh','weq',20,'/picture/wenti/2014-12-14/548d541ba15cd.jpg',1418548251,0,0,1) [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_user` SET `id`=1,`user_id`='chenjunshan@1.com',`password`='chenjunshan',`user_name`='花花公子',`user_image`='/picture/touxiang/2014-12-10/54872305eda49.jpg',`user_coin`=350,`sex`='男',`location`='中国上海',`study`='大学生',`email`='123@qq.com' WHERE `id` = 1 [ RunTime:0.001001s ]
+
+[ 2014-12-14T17:10:51+08:00 ] 127.0.0.1 /index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375451 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:10:54+08:00 ] 127.0.0.1 /index.php/home/question/index?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 23  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\Application\Runtime\Cache\Home\00a4151b6f13762c02e9d8b9f0e9ad6e.php 第 152 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:10:59+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_fav` (`questionid`,`userid`) VALUES (23,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=1,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:00+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_fav` WHERE `id` = 16 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.010000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=0,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:04+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzan` (`questionid`,`userid`) VALUES (23,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=0,`prisenum`=1,`sellectnum`=0,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:05+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 18 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=0,`prisenum`=0,`sellectnum`=0,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:14+08:00 ] 127.0.0.1 /index.php/Home/Question/publishanswer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] finfo_file(): Empty filename or path D:\wamp\www\ThinkPHP\Library\Think\Upload.class.php 第 152 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: INSERT INTO `ft_answer` (`userid`,`username`,`content`,`questionid`,`time`,`picture`) VALUES (1,'花花公子','wahahah',23,1418548274,null) [ RunTime:0.069004s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.001000s ]
+SQL: UPDATE `ft_question` SET `answernum`=1 WHERE `id` = 23 [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_user` SET `id`=1,`user_id`='chenjunshan@1.com',`password`='chenjunshan',`user_name`='花花公子',`user_image`='/picture/touxiang/2014-12-10/54872305eda49.jpg',`user_coin`=360,`sex`='男',`location`='中国上海',`study`='大学生',`email`='123@qq.com' WHERE `id` = 1 [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 23  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:11:18+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 19 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzanans` (`answerid`,`userid`) VALUES (19,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=19,`questionid`=23,`userid`=1,`username`='花花公子',`time`=1418548274,`content`='wahahah',`prisenum`=1,`adopt`=0,`picture`=null WHERE `id` = 19 [ RunTime:0.040000s ]
+
+[ 2014-12-14T17:11:19+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 19 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzanans` WHERE `id` = 9 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=19,`questionid`=23,`userid`=1,`username`='花花公子',`time`=1418548274,`content`='wahahah',`prisenum`=0,`adopt`=0,`picture`=null WHERE `id` = 19 [ RunTime:0.050000s ]
+
+[ 2014-12-14T17:11:19+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 19 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzanans` (`answerid`,`userid`) VALUES (19,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=19,`questionid`=23,`userid`=1,`username`='花花公子',`time`=1418548274,`content`='wahahah',`prisenum`=1,`adopt`=0,`picture`=null WHERE `id` = 19 [ RunTime:0.050000s ]
+
+[ 2014-12-14T17:11:19+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 19 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzanans` WHERE `id` = 10 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=19,`questionid`=23,`userid`=1,`username`='花花公子',`time`=1418548274,`content`='wahahah',`prisenum`=0,`adopt`=0,`picture`=null WHERE `id` = 19 [ RunTime:0.050000s ]
+
+[ 2014-12-14T17:11:20+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 19 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzanans` (`answerid`,`userid`) VALUES (19,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=19,`questionid`=23,`userid`=1,`username`='花花公子',`time`=1418548274,`content`='wahahah',`prisenum`=1,`adopt`=0,`picture`=null WHERE `id` = 19 [ RunTime:0.050000s ]
+
+[ 2014-12-14T17:11:20+08:00 ] 127.0.0.1 /index.php/home/question/dianzan2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzanans` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_dianzanans` WHERE `answerid` = 19 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzanans` WHERE `id` = 11 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_answer` SET `id`=19,`questionid`=23,`userid`=1,`username`='花花公子',`time`=1418548274,`content`='wahahah',`prisenum`=0,`adopt`=0,`picture`=null WHERE `id` = 19 [ RunTime:0.050000s ]
+
+[ 2014-12-14T17:11:31+08:00 ] 127.0.0.1 /index.php/home/question/shoucang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_fav` (`questionid`,`userid`) VALUES (23,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=1,`prisenum`=0,`sellectnum`=1,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:33+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: INSERT INTO `ft_dianzan` (`questionid`,`userid`) VALUES (23,1) [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=1,`prisenum`=1,`sellectnum`=1,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:37+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375497 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:11:42+08:00 ] 127.0.0.1 /index.php/home/question/index?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 23  [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:11:43+08:00 ] 127.0.0.1 /index.php/home/question/dianzan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_dianzan` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_dianzan` WHERE `questionid` = 23 AND `userid` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: DELETE FROM `ft_dianzan` WHERE `id` = 19 [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+SQL: UPDATE `ft_question` SET `id`=23,`userid`='1',`username`='花花公子',`title`='wahh',`content`='weq',`coin`=20,`answerid`=0,`answernum`=1,`prisenum`=0,`sellectnum`=1,`picture`='/picture/wenti/2014-12-14/548d541ba15cd.jpg',`C`=0,`JAVA`=0,`PHP`=1,`time`=1418548251 WHERE `id` = 23 [ RunTime:0.000000s ]
+
+[ 2014-12-14T17:11:44+08:00 ] 127.0.0.1 /index.php/home/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_question` ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `time` >= 1418375504 ORDER BY answernum desc  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `answernum` = 0 ORDER BY time desc  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2014-12-14T17:11:51+08:00 ] 127.0.0.1 /index.php/home/question/index?id=23
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `ft_answer` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_answer` WHERE `questionid` = 23  [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:11:59+08:00 ] 127.0.0.1 /index.php/home/user/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `userid` = '1'  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `userid` = 1  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 8 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 7 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 4 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 17 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:13:42+08:00 ] 127.0.0.1 /index.php/home/user/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_question` WHERE `userid` = '1' ORDER BY time desc  [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.002000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `userid` = 1  [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 8 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 7 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 2 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 4 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 17 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 19 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2014-12-14T17:14:16+08:00 ] 127.0.0.1 /index.php/home/user/index/id/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\wamp\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `ft_user` [ RunTime:0.003001s ]
+SQL: SELECT * FROM `ft_user` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ft_question` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ft_question` WHERE `userid` = '1' ORDER BY time desc  [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `ft_fav` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `ft_fav` WHERE `userid` = 1 ORDER BY id desc  [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 23 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 19 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 21 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 17 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 4 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 6 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 2 LIMIT 1   [ RunTime:0.000000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 7 LIMIT 1   [ RunTime:0.001000s ]
+SQL: SELECT * FROM `ft_question` WHERE `id` = 8 LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
