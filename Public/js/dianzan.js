@@ -79,33 +79,36 @@ var shoucangnum=$('#shoucangnum').text();
     });
   }
 
-function dianzan(){
+function guanzhu(){
 
   
   var user_id2=$('#hidden_name1').val();
   var user_id=$('#hidden_name2').val();
-    $.post("http://localhost/index.php/home/question/dianzan",
+    $.post("http://localhost/index.php/home/user/guanzhu",
     {
-     'questionid': Number(questionid),
+
+     'user_id': user_id,
+     'user_id2': user_id2,
     },
     function(data,status){
-      index=data;
-       if(index==1){
-        temp=Number(dianzannum)+1;
-      $('#dianzannum').text(temp);
-    }
-    else if(index==2){
-      temp=Number(dianzannum)-1;
-      $('#dianzannum').text(temp);
-      $("#dianzan_error").show(500);
-    $("#dianzan_error").hide(2000);
-    }else{
-       $("#dianzan_error2").show(500);
-    $("#dianzan_error2").hide(2000);
-    }
-
+      location.reload(true);
     });
   }
 
 
+function quguan(){
+
+  
+  var user_id2=$('#hidden_name1').val();
+  var user_id=$('#hidden_name2').val();
+    $.post("http://localhost/index.php/home/user/quguan",
+    {
+
+     'user_id': user_id,
+     'user_id2': user_id2,
+    },
+    function(data,status){
+      location.reload(true);
+    });
+  }
 

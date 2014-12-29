@@ -15,9 +15,12 @@ class LoginController extends Controller {
             $_SESSION['id']=$arr['id'];
             $_SESSION['picture']=$arr['user_image'];
             $_SESSION['coin']=$arr['user_coin'];
-         //    $data5['user_id']=$arr['id'];
-         // $guanzhu_info=$guanzhu->where($data5)->order('id desc')->select();
-         //    $_SESSION['guanzhu']=$guanzhu_info;
+            $data5['user_id']=$arr['id'];
+            $guanzhu_info=$guanzhu->where($data5)->order('id desc')->select();
+            $_SESSION['guanzhu']=array();
+            foreach ($guanzhu_info as $key => $value) {
+                    array_push($_SESSION['guanzhu'], $value);
+            }
             $data=1;
          }else{
             $data=0;

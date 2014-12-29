@@ -42,7 +42,7 @@ class UserController extends Controller {
     $this->assign('fav_question',$fav_question);
     $this->assign('user_data',$user_data);
 
-    // var_dump($_SESSION['guanzhu']);
+    var_dump($_SESSION['guanzhu']);
         $this->display('user');
 	}
 
@@ -85,46 +85,43 @@ class UserController extends Controller {
         $this->index($_SESSION['id']);
 
     }
-}
 
 
-  // public function guanzhu(){
+
+  public function guanzhu(){
 
 
        
-  //        $dianzan=M('Dianzan');
-  //        $question=M('Question');
-  //       $temp['questionid']=$_POST['questionid'];
-  //       $temp['userid']=$_SESSION['id'];
+         $guanzhu=M('Guanzhu');
+        $temp['user_id']=$_POST['user_id'];
+        $temp['user_id2']=$_POST['user_id2'];
 
-  //        $dianzan_info=$dianzan->where($temp)->find();
-  //        if(!($dianzan_info)){
-  //           $data['questionid']=$_POST['questionid'];
-  //           $data['userid']=$_SESSION['id'];
-  //           $dianzan->create($data);
-  //           $dianzan->add();
-
-  //           $data2['id']=$_POST['questionid'];
-  //           $question_info=$question->where($data2)->find();
-  //           $wahaha=$question_info['prisenum'];
-  //           $question_info['prisenum']=$wahaha+1;
-  //           $question->where($data2)->save($question_info); 
-
-  //           $temp=1;
-  //        }else{
-  //           $data3['id']=$dianzan_info['id'];
-  //           $dianzan->where($data3)->delete();
-
-  //           $data2['id']=$_POST['questionid'];
-  //           $question_info=$question->where($data2)->find();
-  //           $wahaha=$question_info['prisenum'];
-  //           $question_info['prisenum']=$wahaha-1;
-  //           $question->where($data2)->save($question_info); 
-
-  //           $temp=2;
-            
-  //        }
-  //        $this->ajaxReturn($temp);
+        $guanzhu->create($temp);
+        $guanzhu->add();
 
 
-  // }
+        $data_temp=$guanzhu->where($temp)->find();
+        array_push($_SESSION['guanzhu'], $data_temp);
+         $this->ajaxReturn($temp);
+  }
+    public function quguan(){
+
+
+       
+         $guanzhu=M('Guanzhu');
+        $temp['user_id']=$_POST['user_id'];
+        $temp['user_id2']=$_POST['user_id2'];
+
+        $guanzhu->where($temp)->delete();
+
+
+        $data5['user_id']=$_SESSION['id'];
+            $guanzhu_info=$guanzhu->where($data5)->order('id desc')->select();
+            $_SESSION['guanzhu']=array();
+            foreach ($guanzhu_info as $key => $value) {
+                    array_push($_SESSION['guanzhu'], $value);
+            }
+         $this->ajaxReturn($temp);
+  }
+
+}

@@ -215,9 +215,20 @@
                     <img alt="陈倾酒" src="'.$src.'" class="zm-profile-header-img zg-avatar-big zm-avatar-editor-preview">
                     </div>
                     
-                    <div class="info_content">
-                    <a  class="btn btn-success modify_info "  onclick="guanzhu()">关注</a>
-                    <form>
+                    <div class="info_content">';
+                    $guanzhu_temp=false;
+                    $guanzhu_list=$_SESSION['guanzhu'];
+                    foreach ($guanzhu_list as $key => $value) {
+                        if($value['user_id2']==$user_info['id']){
+                            $guanzhu_temp=true;
+                        }
+                    }
+                    if($guanzhu_temp){
+                        echo '<button  class="btn btn-success modify_info "  onclick="quguan()">已关注</button>';
+                    }else{
+                       echo ' <button  class="btn btn-success modify_info "  onclick="guanzhu()">关注</button>';
+                    }
+                    echo '<form>
                     <input type="hidden" name="hidden_name1" id="hidden_name1" value=" '.$user_info['id'].'">
                     <input type="hidden" name="hidden_name2" id="hidden_name2" value=" '.$_SESSION['id'].'">
                     </form>
