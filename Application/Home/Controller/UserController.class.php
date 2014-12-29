@@ -24,12 +24,25 @@ class UserController extends Controller {
         array_push($fav_question, $temp);
     }
 
+    $guanzhu=M('Guanzhu');
+    $data5['user_id']=$id;
+    $guanzhu_info=$guanzhu->where($data5)->order('id desc')->select();
+    $user=M('User');
+    $user_data=array();
+    foreach ($guanzhu_info as $key => $value) {
+        $data6['id']=$value['user_id2'];
+        $temp=$user->where($data6)->find();
+        array_push($user_data, $temp);
+    }
+    
+
 
     $this->assign('user_info',$user_info);
     $this->assign('question_info',$question_data);
     $this->assign('fav_question',$fav_question);
+    $this->assign('user_data',$user_data);
 
-    
+    // var_dump($_SESSION['guanzhu']);
         $this->display('user');
 	}
 
@@ -73,3 +86,45 @@ class UserController extends Controller {
 
     }
 }
+
+
+  // public function guanzhu(){
+
+
+       
+  //        $dianzan=M('Dianzan');
+  //        $question=M('Question');
+  //       $temp['questionid']=$_POST['questionid'];
+  //       $temp['userid']=$_SESSION['id'];
+
+  //        $dianzan_info=$dianzan->where($temp)->find();
+  //        if(!($dianzan_info)){
+  //           $data['questionid']=$_POST['questionid'];
+  //           $data['userid']=$_SESSION['id'];
+  //           $dianzan->create($data);
+  //           $dianzan->add();
+
+  //           $data2['id']=$_POST['questionid'];
+  //           $question_info=$question->where($data2)->find();
+  //           $wahaha=$question_info['prisenum'];
+  //           $question_info['prisenum']=$wahaha+1;
+  //           $question->where($data2)->save($question_info); 
+
+  //           $temp=1;
+  //        }else{
+  //           $data3['id']=$dianzan_info['id'];
+  //           $dianzan->where($data3)->delete();
+
+  //           $data2['id']=$_POST['questionid'];
+  //           $question_info=$question->where($data2)->find();
+  //           $wahaha=$question_info['prisenum'];
+  //           $question_info['prisenum']=$wahaha-1;
+  //           $question->where($data2)->save($question_info); 
+
+  //           $temp=2;
+            
+  //        }
+  //        $this->ajaxReturn($temp);
+
+
+  // }

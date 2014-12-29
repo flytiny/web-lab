@@ -77,6 +77,35 @@ var shoucangnum=$('#shoucangnum').text();
     }
 
     });
-
-
   }
+
+function dianzan(){
+
+  
+  var user_id2=$('#hidden_name1').val();
+  var user_id=$('#hidden_name2').val();
+    $.post("http://localhost/index.php/home/question/dianzan",
+    {
+     'questionid': Number(questionid),
+    },
+    function(data,status){
+      index=data;
+       if(index==1){
+        temp=Number(dianzannum)+1;
+      $('#dianzannum').text(temp);
+    }
+    else if(index==2){
+      temp=Number(dianzannum)-1;
+      $('#dianzannum').text(temp);
+      $("#dianzan_error").show(500);
+    $("#dianzan_error").hide(2000);
+    }else{
+       $("#dianzan_error2").show(500);
+    $("#dianzan_error2").hide(2000);
+    }
+
+    });
+  }
+
+
+

@@ -6,6 +6,7 @@ class LoginController extends Controller {
         $userid=$_POST['user_email'];
         $password=$_POST['password'];
          $user=M('User');
+         $guanzhu=M('Guanzhu');
          $where['user_id']=$userid;
          $where['password']=$password;
          $arr=$user->where($where)->find();
@@ -14,6 +15,9 @@ class LoginController extends Controller {
             $_SESSION['id']=$arr['id'];
             $_SESSION['picture']=$arr['user_image'];
             $_SESSION['coin']=$arr['user_coin'];
+         //    $data5['user_id']=$arr['id'];
+         // $guanzhu_info=$guanzhu->where($data5)->order('id desc')->select();
+         //    $_SESSION['guanzhu']=$guanzhu_info;
             $data=1;
          }else{
             $data=0;

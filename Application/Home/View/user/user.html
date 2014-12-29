@@ -62,6 +62,7 @@
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">他的问题</a></li>
                             <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">他的收藏</a></li>
+                            <li role="presentation"><a href="#guanzhu" role="tab" data-toggle="tab">他的关注</a></li>
                         </ul>
 
                         <div class="tab-content">
@@ -177,6 +178,21 @@
                             ';
 
                     }
+
+
+
+                                 echo '</div>
+                            <div role="tabpanel" class="tab-pane" id="guanzhu">';
+                                
+                                foreach ($user_data as $key => $value) {
+                                     $src="__PUBLIC__".$value['user_image'];
+                                        echo '<section class="user-list-section">
+                                        <img src="'.$src.'" class="img-responsive img-thumbnail user-img" alt="">
+
+                                        <a href="/index.php/home/user/index?id=';    echo $value['id'];
+                                        echo '" class="user"><strong>'.$value['user_name'].'</strong></a>
+                                        </section>';
+                                         }
                                
                             echo '</div>
                         </div>
@@ -200,6 +216,11 @@
                     </div>
                     
                     <div class="info_content">
+                    <a  class="btn btn-success modify_info "  onclick="guanzhu()">关注</a>
+                    <form>
+                    <input type="hidden" name="hidden_name1" id="hidden_name1" value=" '.$user_info['id'].'">
+                    <input type="hidden" name="hidden_name2" id="hidden_name2" value=" '.$_SESSION['id'].'">
+                    </form>
                         <div class="sex">
                             <strong class="sex_name">性别:</strong>
                             <strong class="sex_info">'.$user_info['sex'].'</strong>
@@ -225,6 +246,7 @@
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">他的问题</a></li>
                             <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">他的收藏</a></li>
+                            <li role="presentation"><a href="#guanzhu" role="tab" data-toggle="tab">他的关注</a></li>
                         </ul>
 
                         <div class="tab-content">
@@ -340,6 +362,21 @@
                             ';
 
                     }
+
+                     echo '</div>
+                            <div role="tabpanel" class="tab-pane" id="guanzhu">';
+                                
+                                foreach ($user_data as $key => $value) {
+                                     $src="__PUBLIC__".$value['user_image'];
+                                        echo '<section class="user-list-section">
+                                        <img src="'.$src.'" class="img-responsive img-thumbnail user-img" alt="">
+
+                                        <a href="/index.php/home/user/index?id=';    echo $value['id'];
+                                        echo '" class="user"><strong>'.$value['user_name'].'</strong></a>
+                                        </section>';
+                                    }
+
+
                             echo '</div>
                         </div>
         </div>';
@@ -390,6 +427,7 @@
                         <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active"><a href="#home" role="tab" data-toggle="tab">我的问题</a></li>
                             <li role="presentation"><a href="#profile" role="tab" data-toggle="tab">我的收藏</a></li>
+                            <li role="presentation"><a href="#guanzhu" role="tab" data-toggle="tab">我的关注</a></li>
                         </ul>
 
                         <div class="tab-content">
@@ -504,6 +542,19 @@
                             ';
 
                     }
+                    echo '</div>
+                            <div role="tabpanel" class="tab-pane" id="guanzhu">';
+                                
+                                foreach ($user_data as $key => $value) {
+                                     $src="__PUBLIC__".$value['user_image'];
+                                        echo '<section class="user-list-section">
+                                        <img src="'.$src.'" class="img-responsive img-thumbnail user-img" alt="">
+
+                                        <a href="/index.php/home/user/index?id=';    echo $value['id'];
+                                        echo '" class="user"><strong>'.$value['user_name'].'</strong></a>
+                                        </section>';
+                                    }
+
 
                             echo '</div>
                         </div>
@@ -514,6 +565,8 @@
 
         ?>
     </div>
+
+
     
     <include file="public/right" />
 </div>
