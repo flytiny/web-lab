@@ -42,7 +42,6 @@ class UserController extends Controller {
     $this->assign('fav_question',$fav_question);
     $this->assign('user_data',$user_data);
 
-    var_dump($_SESSION['guanzhu']);
         $this->display('user');
 	}
 
