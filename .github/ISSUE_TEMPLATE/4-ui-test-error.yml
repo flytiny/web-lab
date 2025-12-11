@@ -1,6 +1,7 @@
 name: 🧪 New UI Test Error Report
 description: Report new UI test failures from GitHub Actions
-labels: ["bug", "ui-test-error"]
+title: "[New UI Test] "
+labels: ["bug", "new-ui-test-error"]
 assignees:
   - flytiny
 body:
@@ -22,7 +23,7 @@ body:
   - type: textarea
     id: error-analysis
     attributes:
-      label: Error Analysis (from Explain error)
+      label: Error Analysis (from Explain error)(Optional)
       description: |
         💡 **Tip:** Click the `Explain error` button on the failed action page to get an AI-powered analysis of the error.
         Paste the analysis result here if available.
@@ -35,7 +36,7 @@ body:
     attributes:
       value: |
         ---
-        ### 📹 Video Recording
+        ### 📹 Video Recording(Optional)
         You can download and review the test recording from the **"Upload UI Test reports"** step in the GitHub Action run.
         This video can help identify visual issues or timing problems during test execution.
 
@@ -53,7 +54,7 @@ body:
   - type: input
     id: test-name
     attributes:
-      label: Failed Test Name
+      label: Failed Test Name(Optional)
       description: Name of the failed test (if known)
       placeholder: "e.g., ChatPanelTest.testSendMessage"
     validations:
@@ -62,35 +63,9 @@ body:
   - type: textarea
     id: error-message
     attributes:
-      label: Error Message / Stack Trace
+      label: Error Message / Stack Trace(Optional)
       description: The error message or stack trace from the test failure
       placeholder: Paste error message or stack trace here...
       render: shell
-    validations:
-      required: false
-
-  - type: dropdown
-    id: frequency
-    attributes:
-      label: Failure Frequency
-      description: How often does this test fail?
-      options:
-        - First time seeing this
-        - Occasionally (flaky)
-        - Frequently
-        - Always fails
-        - Unknown
-    validations:
-      required: false
-
-  - type: textarea
-    id: additional-context
-    attributes:
-      label: Additional Context
-      description: Any additional information that might help investigate this issue
-      placeholder: |
-        - Related PRs or commits
-        - Similar past failures
-        - Suspected root cause
     validations:
       required: false
