@@ -39,6 +39,10 @@ body:
         ### 📹 Video Recording(Optional)
         You can download and review the test recording from the **"Upload UI Test reports"** step in the GitHub Action run.
         This video can help identify visual issues or timing problems during test execution.
+        
+        💡 **Recommended Video Players:**
+        - **Windows:** [PotPlayer](https://potplayer.daum.net/)
+        - **macOS:** [IINA](https://iina.io/download/)
 
   - type: textarea
     id: video-observations
