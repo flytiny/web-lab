@@ -1,0 +1,96 @@
+name: 🧪 New UI Test Error Report
+description: Report new UI test failures from GitHub Actions
+labels: ["bug", "ui-test-error"]
+assignees:
+  - flytiny
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## New UI Test Error Report
+        Thank you for reporting a new UI test failure. Please provide the following information to help us investigate.
+
+  - type: input
+    id: action-link
+    attributes:
+      label: GitHub Action Run Link
+      description: Please provide the link to the failed GitHub Action run
+      placeholder: "https://github.com/microsoft/copilot-intellij/actions/runs/**/job/**?pr=**"
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-analysis
+    attributes:
+      label: Error Analysis (from Explain error)
+      description: |
+        💡 **Tip:** Click the `Explain error` button on the failed action page to get an AI-powered analysis of the error.
+        Paste the analysis result here if available.
+      placeholder: |
+        Paste the error explanation here...
+    validations:
+      required: false
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ### 📹 Video Recording
+        You can download and review the test recording from the **"Upload UI Test reports"** step in the GitHub Action run.
+        This video can help identify visual issues or timing problems during test execution.
+
+  - type: textarea
+    id: video-observations
+    attributes:
+      label: Video Observations
+      description: After watching the recorded video, describe any observations that might help diagnose the issue.
+      placeholder: |
+        e.g., "The dialog appeared but the button was not clickable"
+        e.g., "The test seemed to timeout waiting for the element to appear"
+    validations:
+      required: false
+
+  - type: input
+    id: test-name
+    attributes:
+      label: Failed Test Name
+      description: Name of the failed test (if known)
+      placeholder: "e.g., ChatPanelTest.testSendMessage"
+    validations:
+      required: false
+
+  - type: textarea
+    id: error-message
+    attributes:
+      label: Error Message / Stack Trace
+      description: The error message or stack trace from the test failure
+      placeholder: Paste error message or stack trace here...
+      render: shell
+    validations:
+      required: false
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: Failure Frequency
+      description: How often does this test fail?
+      options:
+        - First time seeing this
+        - Occasionally (flaky)
+        - Frequently
+        - Always fails
+        - Unknown
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional Context
+      description: Any additional information that might help investigate this issue
+      placeholder: |
+        - Related PRs or commits
+        - Similar past failures
+        - Suspected root cause
+    validations:
+      required: false
