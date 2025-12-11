@@ -2,7 +2,6 @@ name: 🧪 New UI Test Error Report
 description: Report new UI test failures from GitHub Actions
 title: "[New UI Test] "
 labels: ["bug", "new-ui-test-error"]
-type: "Bug"
 assignees:
   - flytiny
 body:
